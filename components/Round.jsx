@@ -66,7 +66,7 @@ const Round = ({ rr, wrong, setWrong, word, setRound, setPrev, hint }) => {
       style={{
         'grid-template-columns': '1fr 8fr 1fr',
       }}
-      className='bg-[#222] h-[100vh] text-gray-100 grid relative'
+      className='bg-[#222] h-full text-gray-100 grid relative'
     >
       {wrong === 8 ? (
         <>
