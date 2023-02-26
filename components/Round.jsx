@@ -252,7 +252,7 @@ const Round = ({ rr, wrong, setWrong, word, setRound, setPrev, hint }) => {
       )}
       <div
         style={{ 'writing-mode': 'vertical-rl' }}
-        className='bg-[#22222288] flex items-center justify-center text-4xl justify-items-center rotate-180 h-[100vh]'
+        className='bg-[#22222288] flex items-center justify-center text-4xl justify-items-center rotate-180'
       >
         {(turn == 1 ? 'ROW 1' : '') ||
           (turn % 3 == 0 ? 'ROW 2' : '') ||
@@ -402,16 +402,16 @@ const Round = ({ rr, wrong, setWrong, word, setRound, setPrev, hint }) => {
       </div>
       {guess1 ? (
         !guess ? (
-          <div className='bg-[#9d1a3a88] flex items-center justify-center text-4xl justify-items-center h-[100vh]'>
+          <div className='bg-[#9d1a3a88] flex items-center justify-center text-4xl justify-items-center'>
             W<br />R<br />O<br />N<br />G
           </div>
         ) : (
-          <div className='bg-[#4fa01a88] flex items-center justify-center text-4xl justify-items-center h-[100vh]'>
+          <div className='bg-[#4fa01a88] flex items-center justify-center text-4xl justify-items-center'>
             C<br />O<br />R<br />R<br />E<br />C<br />T
           </div>
         )
       ) : (
-        <div className='bg-[#1a599d8c] grid items-center justify-center text-4xl justify-items-center h-[100vh]'>
+        <div className='bg-[#1a599d8c] grid items-center justify-center text-4xl justify-items-center'>
           <div className='grid items-center justify-center text-4xl justify-items-center h-1/2'>
             <span>Make</span>
             <span>A</span>
