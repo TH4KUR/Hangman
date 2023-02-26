@@ -252,7 +252,7 @@ const Round = ({ rr, wrong, setWrong, word, setRound, setPrev, hint }) => {
       )}
       <div
         style={{ 'writing-mode': 'vertical-rl' }}
-        className='bg-[#22222288] flex items-center justify-center text-4xl justify-items-center rotate-180'
+        className='bg-[#22222288] flex items-center justify-center text-4xl justify-items-center rotate-180 h-[100vh]'
       >
         {(turn == 1 ? 'ROW 1' : '') ||
           (turn % 3 == 0 ? 'ROW 2' : '') ||
@@ -264,7 +264,7 @@ const Round = ({ rr, wrong, setWrong, word, setRound, setPrev, hint }) => {
         <h1 className="text-5xl text-center pt-2 font-['MyNerve'] relative h-36">
           <span className='relative z-10 text-6xl underline'>Hangman</span>
         </h1>
-        <h1 className='text-center py-2 relative font-bold h-[100vh]'>
+        <h1 className='text-center py-2 relative font-bold'>
           <span className='relative z-10 text-2xl'>ROUND-{rr}</span>
         </h1>
         <div className='w-full flex flex-col items-center'>
