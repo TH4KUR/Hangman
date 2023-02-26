@@ -182,6 +182,7 @@ header {
 main {
   background-image: linear-gradient(#0000004d, #0000004d), url('/bg.jpg');
   background-size: cover;
+  height: 100vh;
 }
 
 .plank {
