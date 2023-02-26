@@ -72,11 +72,14 @@ const Round = ({ rr, wrong, setWrong, word, setRound, setPrev, hint }) => {
         <>
           <div className='absolute w-full h-full bg-[#22222299] z-[15]'></div>
           <div className='bg-[#111] z-20  h-20 text-3xl absolute w-full self-center flex items-center justify-center'>
-            <span
-              style={{ color: '#f54444 !important' }}
-              className="font-['MyNerve'] animate-pulse "
-            >
-              YoU LoSt
+            <span className='text-center'>
+              <span
+                style={{ color: '#42e44f' }}
+                className="font-['MyNerve'] animate-pulse text-center"
+              >
+                YoU LoSt
+              </span>
+              <p className=' font-sans text-lg'>The word was {word}</p>
             </span>
           </div>
           <div className='z-20 h-20 text-3xl absolute w-full mt-[250px] self-center flex items-center justify-center'>
