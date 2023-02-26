@@ -264,7 +264,7 @@ const Round = ({ rr, wrong, setWrong, word, setRound, setPrev, hint }) => {
         <h1 className="text-5xl text-center pt-2 font-['MyNerve'] relative h-36">
           <span className='relative z-10 text-6xl underline'>Hangman</span>
         </h1>
-        <h1 className='text-center py-2 relative font-bold'>
+        <h1 className='text-center py-2 relative font-bold h-[100vh]'>
           <span className='relative z-10 text-2xl'>ROUND-{rr}</span>
         </h1>
         <div className='w-full flex flex-col items-center'>
@@ -402,16 +402,16 @@ const Round = ({ rr, wrong, setWrong, word, setRound, setPrev, hint }) => {
       </div>
       {guess1 ? (
         !guess ? (
-          <div className='bg-[#9d1a3a88] flex items-center justify-center text-4xl justify-items-center'>
+          <div className='bg-[#9d1a3a88] flex items-center justify-center text-4xl justify-items-center h-[100vh]'>
             W<br />R<br />O<br />N<br />G
           </div>
         ) : (
-          <div className='bg-[#4fa01a88] flex items-center justify-center text-4xl justify-items-center'>
+          <div className='bg-[#4fa01a88] flex items-center justify-center text-4xl justify-items-center h-[100vh]'>
             C<br />O<br />R<br />R<br />E<br />C<br />T
           </div>
         )
       ) : (
-        <div className='bg-[#1a599d8c] grid items-center justify-center text-4xl justify-items-center'>
+        <div className='bg-[#1a599d8c] grid items-center justify-center text-4xl justify-items-center h-[100vh]'>
           <div className='grid items-center justify-center text-4xl justify-items-center h-1/2'>
             <span>Make</span>
             <span>A</span>
